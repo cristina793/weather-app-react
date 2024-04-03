@@ -7,7 +7,7 @@ import axios from "axios";
 export default function Weather(props) {
   const[weatherData, setWeatherData] = useState({});
 const[ready, setReady]=useState(false);
-  const[temperature, setTemperature ]=useState(null);
+  
     
   function handleResponse(response){
    
